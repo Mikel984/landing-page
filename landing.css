@@ -118,3 +118,52 @@ h1{
     font-weight: bold;
     color: #1f2937;
 }
+
+.action{
+
+    display:flex;
+    background-color: #3882f6;
+    margin: 80px auto 80px auto;
+    width: 1000px;
+    justify-content: space-around;   
+    border-radius: 10px; 
+}
+
+.text-second{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.call{
+    margin: 30px 0 0 0;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+.product{
+    margin: 5px 0 30px 0;
+    color: white;
+    font-family: arial;
+    font-size: 14px;
+}
+
+.second{
+    padding: 8px 30px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid white;
+    color: white;
+    align-self: center;
+}
+
+.footer{
+    height: 80px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
